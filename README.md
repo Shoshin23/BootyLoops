@@ -1,4 +1,4 @@
 Booty-Loops
 ===========
 
-A fruity loops ripoff that i've been writing for a month now. 
+A fruity loops clone in which you can drag music presets and drop them onto a sequencer grid and listen to the music you made. 
