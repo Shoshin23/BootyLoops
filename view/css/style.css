@@ -1,0 +1,247 @@
+.hidden {
+	display:none; !important
+}
+
+.unselectable {
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+.automargin {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer {
+	padding-left: 20px;
+}
+#userinfo {
+	-webkit-border-radius: 3px 0 0 3px;
+    -moz-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
+}
+
+#playbutton {
+  -webkit-border-radius: 0 3px 3px 0;
+     -moz-border-radius: 0 3px 3px 0;
+          border-radius: 0 3px 3px 0;
+}
+
+#used {
+  text-align: center;
+  overflow:hidden; 
+  list-style-type: none;
+}
+
+#used li {
+  margin: 10px 6px 3px;
+  padding: 0.4em;
+  height: 35px;
+  border: 1px solid #CCC;
+  outline: none;
+  
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+
+  line-height:22px;
+  border-bottom:1px solid #ccc;
+}
+
+.nowPlaying {
+	background-color: #C9C9C9;
+}
+
+/** Indicators **/
+
+#indicator {
+  list-style-type:none;
+}
+
+#indicator li {
+  background:url(../images/dot_empty.png) no-repeat center;
+  margin: 10px 4px 0px;
+  height: 18px;
+}
+
+.selectedIndicator {
+	background:url(../images/dot_selected.png) no-repeat center !important;
+}
+
+#samples {
+  width: 90%;
+  cursor: pointer;
+}
+
+#samples li {
+  margin: 10px 3px 3px 3px;
+  height: 32px;
+  border: 1px solid #CCC;
+  outline: none;
+  line-height: 32px;
+  text-align: center;
+  
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+
+#samples li:hover {
+ background-color: #4ECDC4;
+}
+
+#used li:hover {
+  background-color: #C7F464;
+}
+
+#log {
+	display: inline-block;    
+	float: left;
+    padding: 5px;
+}
+
+/* Delete button on music samples */
+
+.del {
+ display: inline-block;
+ width: 16px;
+ height: 16px;
+ background: url(../images/delete_blank.png) no-repeat;
+ float: right;
+}
+
+.del:hover {
+ background: url(../images/delete.png) no-repeat;
+}
+
+/** preview buttons **/
+.preview {
+ display: inline-block;
+ width: 32px;
+ height: 32px;
+ background: url(../images/play_normal.png) no-repeat;
+ float: right;
+ cursor: pointer;	
+ margin-top: -32px;
+}
+
+.preview:hover {
+ background: url(../images/play_hover.png) no-repeat;
+}
+
+.pressed {
+ backround: url(../images/play_pressed.png) no-repeat;
+}
+
+/** Play button **/
+
+.player img {
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-250px;
+	margin-left:-50px;
+}
+
+a.button {
+	text-decoration: none;
+	cursor: pointer;
+	color: #333333;
+	width: 27px;;
+}
+
+a.button:hover {
+	text-decoration: none;
+	color: #333333;
+}		
+
+#chatbox {  
+    text-align:left;  
+    margin-bottom:25px;  
+    padding:10px;
+    overflow:auto; 
+	float: left;
+	padding:4px;
+	color:#000;
+}  
+
+#chat {
+	height: 215px;
+    width: 210px;
+	overflow: hidden;
+	float: left;
+}
+
+#message {
+	display: inline-block;
+	
+}
+
+#chatSend {
+	margin-top: -8px;
+}
+
+#userList { 
+	max-height: 365px;
+    overflow: auto;
+	margin: 3px;
+}
+#userList p {
+	margin-bottom: 2px;
+}
+
+#connected {
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+/** Mouse **/
+
+.mouse {
+  position: absolute;
+  background-repeat: no-repeat;
+  height: 18px;
+  width: 18px;
+  z-index: 100;
+  background-image: url('../images/cursor.png');
+}
+
+#chat {
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border-radius:5px;
+  background-color:#222;
+  box-shadow:0 1px 0 #fff;
+  color:#fff;
+  font-size: 12px;
+  display: block;
+  opacity: 0.75;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 2px 5px;
+  float:right;
+}
+
+span.mouse img, span#preview img {
+  padding: 0 5px;
+  float:left;
+  margin: 0 -15px 0 15px;
+  width: 20px;
+  height: 20px;
+}
+
+/* Hide SM flash */
+#sm2-container {
+	position:absolute;left:-999px;top:-999px;
+}
+
